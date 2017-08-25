@@ -27,7 +27,7 @@ body {
   background-size: cover;
   background-attachment: fixed !important;
   background-image: url(../images/Ground-Zero.jpg);
-  height: 80vh;
+  height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -326,7 +326,7 @@ SECCION PIE DE PAGINA
 .ir-arriba:focus {
   outline: 0;
   text-decoration: none;
-  color: #fff; }
+  color: #474746; }
 
 /*-------------------------------------------
 ESTILOS PAGINA NOSOTROS
@@ -344,6 +344,9 @@ ESTILOS PAGINA NOSOTROS
 
 .paginas-internas .ruta a:hover {
   text-decoration: none; }
+.paginas-internas .panel {
+  padding: 8px;
+  }
 
 .paginas-internas .panel .panel-heading {
   font-size: 1.2rem; }
@@ -361,6 +364,9 @@ ESTILOS PAGINA NOSOTROS
 .paginas-internas .panel .panel-heading a:hover {
   background: #025aa5;
   color: #fff; }
+
+
+
 
 /*-------------------------------------------
 ESTILOS PAGINA SERVICIOS
